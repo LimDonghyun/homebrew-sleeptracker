@@ -10,8 +10,7 @@ class Sleeptracker < Formula
   def install
     system "python3", "-m", "venv", "venv"
     system "./venv/bin/pip", "install", "-r", "requirements.txt"
-
-    bin.install "sleep_tracker_cli/tracker.py" => "sleeptracker"
+    bin.install "cli/run_tracker.py" => "sleeptracker"
     prefix.install "xyz.extho.sleeptracker.mac.wakeup.plist"
   end
 
