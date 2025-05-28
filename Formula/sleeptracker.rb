@@ -1,7 +1,7 @@
 class Sleeptracker < Formula
   desc "SRFF 기반 macOS 수면 리듬 감지 유틸리티"
   homepage "https://github.com/LimDonghyun/sleeptracker"
-  url "https://github.com/LimDonghyun/sleeptracker/archive/refs/tags/v0.1.0.tar.gz"
+  url "https://github.com/LimDonghyun/sleeptracker/archive/refs/tags/v0.1.1.tar.gz"
   sha256 "49d5a73259564e7bcd6c7e739e4f31ffabcc7f7a0c73d565e65cad57028d5736"
   license "MIT"
 
